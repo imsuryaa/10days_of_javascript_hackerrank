@@ -105,3 +105,14 @@ function vowelsAndConsonants(s) {
     console.log(consonants)
 }
 ```
+
+## Day 3
+
+- `Arrays`: Print the second largest number from the array
+
+```
+function getSecondLargest(nums) {
+    nums = nums.sort()
+    return nums[nums.indexOf(Math.max.apply(Math, nums))-1]   
+}
+```
