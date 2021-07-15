@@ -91,3 +91,17 @@ function getLetter(s) {
     return letter;
 }
 ```
+
+- `Loops`: Print vowels and consonants on each line from the given string.
+- First print vowels and second print consonants
+
+```
+let vowels = "aeiou"
+let consonants = ""
+function vowelsAndConsonants(s) {    
+    for(let l of s){
+        vowels.includes(l) ? console.log(l) : consonants += l + "\n"
+    }
+    console.log(consonants)
+}
+```
