@@ -29,7 +29,7 @@ function factorial(n){
 }
 ```
 
-- Let and Const, Print the area ans perimeter of circle
+- `let` and `const`, Print the area and perimeter of circle
 
 ```
 function main() {
@@ -48,5 +48,21 @@ function main() {
     } catch(error) {
         console.error("You correctly declared 'PI' as a constant.");
     }
+}
+```
+
+## Day 2
+- Create a `getGrade()` function to validate the grade based on the score
+- Constraints: `0 <= score <= 30`
+```
+function getGrade(score) {
+    let grade;
+    if(score<=30) grade = "A"
+    if(score<=25) grade = "B"
+    if(score<=20) grade = "C"
+    if(score<=15) grade = "D"
+    if(score<=10) grade = "E"
+    if(score<=5) grade = "F"
+    return grade;
 }
 ```
