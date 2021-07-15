@@ -54,6 +54,7 @@ function main() {
 ## Day 2
 - Create a `getGrade()` function to validate the grade based on the score
 - Constraints: `0 <= score <= 30`
+
 ```
 function getGrade(score) {
     let grade;
@@ -64,5 +65,29 @@ function getGrade(score) {
     if(score<=10) grade = "E"
     if(score<=5) grade = "F"
     return grade;
+}
+```
+
+- Conditional Statements: Switch
+
+```
+function getLetter(s) {
+    let letter;
+    switch(s[0]){
+        case ('a' || 'e' || 'o' || 'i' || 'u'):
+            letter = "A"
+            break
+        case ('b' || 'c' || 'd' || 'f' || 'g'):
+            letter = "B"
+            break
+        case ('h' || 'j' || 'k' || 'l' || 'm'):
+            letter = "C"
+            break
+        case ('z' || 'n' || 'p' || 'q' || 'r' || 's' || 't' || 'v' || 'w' || 'x' || 'y'):
+            letter = "D"
+            break
+        
+    }
+    return letter;
 }
 ```
