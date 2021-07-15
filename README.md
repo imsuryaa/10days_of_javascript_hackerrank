@@ -16,3 +16,15 @@ function getPerimeter(length, width) {
     return perimeter;
 }
 ```
+
+- Implement a function which gives a factorial of a number
+
+```
+function factorial(n){
+    let num = 1
+    for(let i=1; i<=n; i++){
+        num *= i
+    }
+    return num
+}
+```
